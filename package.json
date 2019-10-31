@@ -1,0 +1,28 @@
+{
+  "name": "try-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "compile": "gulp compile",
+    "start": "nodemon --watch src/**/*.ts --exec ts-node src/main.ts",
+    "build": "gulp",
+    "build:w": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@trongnd/ts-nodemon": "^1.0.3",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "gulp-watch": "^5.0.1",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {}
+}
